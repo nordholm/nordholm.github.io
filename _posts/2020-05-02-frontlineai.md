@@ -1,11 +1,7 @@
 ---
 layout: post
-title: FrontlineAI: Better customer service experiences through digital humans
+title: FrontlineAI\: Better customer service experiences through digital humans
 ---
-
-This post was first published on the [SAP Community Blog](https://blogs.sap.com/2019/02/27/frontlineai-better-customer-service-experiences-through-digital-humans/).
-
-### 
 
 I would like to share some experiences and insights about a product that my colleagues and I have developed for one of our customers. In this project we drew on a range of established and exponential technologies to deliver a state of the art solution.
 
@@ -42,4 +38,8 @@ One of the main goals of the project was to try to make the interaction between 
 The NLP can be further refined in order to improve the quality of responses as well as the breadth of possible interactions. However, with the current technology, a balance must be struck between the two. If one attempts to make the scope of the NLP very broad, this can come at the cost of accuracy in the provided responses when topic areas begin to overlap. Although this technology has come a long way in recent years, creating a good conversational AI is still as much art as science and requires continuous refinement.
 
 Another obstacle to providing a completely natural conversational interaction is the lag between the user's input and the avatar's response. In our system, this lag is the sum of the lags due to 1) speech to text, 2) NLP, 3) ERP data processing, 4) text to speech, and 5) the network latency involved in each of these. Some of these will be reduced over time by general improvements in network and service performance, and some we can improve in our solution architecture through service locality. Nevertheless, short of being able to deploy all components locally on a single device within the retail setting, there will likely always be some lag in this kind of system.
+
+
+<em>This post was first published on the [SAP Community Blog](https://blogs.sap.com/2019/02/27/frontlineai-better-customer-service-experiences-through-digital-humans/).</em>
+
 
