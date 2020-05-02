@@ -25,7 +25,7 @@ On the back-end, our solution utilizes different cloud services to provide the n
 
 A number of different cloud services, many of which are native to <em>CTRL Human</em>, can convert the user’s speech to text. We currently support IBM Watson Speech to Text, Amazon Web Services' Transcribe, and Google Cloud Text to Speech. They all provide good speech recognition when coupled with a high quality microphone and software techniques to avoid background noise from the environment. Other providers offer similar services with similar levels of performance. The primary differences between services seem to be the number of supported languages and the degree of customisation offered.
 
-<img src="https://blogs.sap.com/wp-content/uploads/2019/02/Architecture-final.png" />
+<img src="../images/architecture-final.png" />
 
 The heart of the back-end is Natural Language Processing (NLP), which interprets the user's input and returns intents that guide the conversation. Our solution uses SAP Conversational AI (CAI) but also supports other NLP services. In order to provide detailed information about products, availability, location, etc. we augment the output from the NLP, when appropriate, with data from the SAP ERP system in our custom middleware. In order to offload this processing from the SAP ERP system, and because it provides additional functionality such as easy on-screen filtering and search refinement for the user, we use a Qlik application as the intermediary for the data from the ERP.
 
