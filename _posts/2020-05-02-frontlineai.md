@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FrontlineAI\: Better customer service experiences through digital humans
+title: FrontlineAI - Better customer service experiences through digital humans
 ---
 
 I would like to share some experiences and insights about a product that my colleagues and I have developed for one of our customers. In this project we drew on a range of established and exponential technologies to deliver a state of the art solution.
