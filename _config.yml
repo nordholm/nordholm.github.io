@@ -1,7 +1,7 @@
 # Setup
-title:               Blog
-tagline:             'My blog'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:               Garbage Out
+tagline:             'and other stuff'
+description:         'Musings about the geeky things in my life, possibly including music, r/c helicopters, technology, and work...'
 url:                 https://nordholm.github.io/
 baseurl:             ''
 paginate:            5
@@ -10,13 +10,13 @@ permalink:           pretty
 # About/contact
 author:
   name:              Thorsten Nordholm Søbirk
-  url:               https://www.linkedin.com/in/thorstensoebirk/
-  email:             test@gmail.com
+  linkedin:          https://www.linkedin.com/in/thorstensoebirk/
+  twitter:           https://twitter.com/ThorstenSoebirk
 
 # Gems
 plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             1.1.0
-google_analytics_id: #UA-XXXX-Y
+version:             0.0.1
+#google_analytics_id: #UA-XXXX-Y

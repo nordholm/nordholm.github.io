@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FrontlineAI - Better customer service experiences through digital humans
+title: "FrontlineAI: Better customer service experiences through digital humans"
 ---
 
 I would like to share some experiences and insights about a product that my colleagues and I have developed for one of our customers. In this project we drew on a range of established and exponential technologies to deliver a state of the art solution.
@@ -15,7 +15,7 @@ Our solution consists of multiple components, which are orchestrated by a custom
 
 #### Front-end
 
-<img style="float: right;" src="../images/avatar_setup.jpg" width="183" height="223" />The visible front-end consists of a life-like digital avatar (from Quantum Capture's <em>CTRL Human</em> platform) which is displayed on a large monitor in a retail setting. The monitor is positioned such that the avatar is roughly life-size and at eye level with the customers. Customers can interact with the avatar either by speaking to it or by pressing on-screen buttons on the touch display.
+<img style="float: right;" src="/images/avatar_setup.jpg" width="183" height="223" />The visible front-end consists of a life-like digital avatar (from Quantum Capture's <em>CTRL Human</em> platform) which is displayed on a large monitor in a retail setting. The monitor is positioned such that the avatar is roughly life-size and at eye level with the customers. Customers can interact with the avatar either by speaking to it or by pressing on-screen buttons on the touch display.
 
 Most digital avatar products rely on a push to talk paradigm, where the user must hold down a button while speaking to the avatar. Our testing quickly revealed that this was a major barrier to a good user experience in our scenario, partly because this forces the user to stand uncomfortably close to the large monitor, and partly because user expectations have progressed beyond the point where push to talk seems intuitive. We have therefore developed a custom component, which combines the input from the microphone with the input from a camera to automatically detect when a user is speaking to the avatar. This makes the customer's interaction with the avatar much more natural and intuitive.
 
@@ -25,7 +25,7 @@ On the back-end, our solution utilizes different cloud services to provide the n
 
 A number of different cloud services, many of which are native to <em>CTRL Human</em>, can convert the user’s speech to text. We currently support IBM Watson Speech to Text, Amazon Web Services' Transcribe, and Google Cloud Text to Speech. They all provide good speech recognition when coupled with a high quality microphone and software techniques to avoid background noise from the environment. Other providers offer similar services with similar levels of performance. The primary differences between services seem to be the number of supported languages and the degree of customisation offered.
 
-<img src="../images/architecture-final.png" />
+<img src="/images/architecture-final.png" />
 
 The heart of the back-end is Natural Language Processing (NLP), which interprets the user's input and returns intents that guide the conversation. Our solution uses SAP Conversational AI (CAI) but also supports other NLP services. In order to provide detailed information about products, availability, location, etc. we augment the output from the NLP, when appropriate, with data from the SAP ERP system in our custom middleware. In order to offload this processing from the SAP ERP system, and because it provides additional functionality such as easy on-screen filtering and search refinement for the user, we use a Qlik application as the intermediary for the data from the ERP.
 

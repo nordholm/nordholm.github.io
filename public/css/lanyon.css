@@ -460,6 +460,18 @@ a.pagination-item:hover {
   color: #d28445;
 }
 
+/* TNS */
+.theme-base-tns .sidebar,
+.theme-base-tns .sidebar-toggle:active,
+.theme-base-tns #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #fe8100;
+}
+.theme-base-tns .container a,
+.theme-base-tns .sidebar-toggle,
+.theme-base-tns .related-posts li a:hover {
+  color: #fe8100;
+}
+
 /* Yellow */
 .theme-base-0a .sidebar,
 .theme-base-0a .sidebar-toggle:active,
