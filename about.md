@@ -19,3 +19,4 @@ A few fun facts about how this blog is run:
 * Hosted for free on [GitHub Pages](https://pages.github.com)
 * Based on a theme from [Lanyon](http://lanyon.getpoole.com)
 
+It's surprisingly easy to get a Jekyll site up and running on GitHub Pages. Check out this [excellent introduction](https://www.barryclark.co/introducing-jekyll-now/).
