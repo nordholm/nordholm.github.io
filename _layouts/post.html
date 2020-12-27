@@ -8,6 +8,11 @@ layout: default
   {{ content }}
 </div>
 
+<div class="related">
+  <h2>Want to leave feedback?</h2>
+  <p>If you want to comment on this post, please contact me via <a href="mailto:{{ site.author.email }}?subject=Garbage Out - {{ page.title }}">email</a> or <a href="{{ site.author.twitter }}">Twitter</a>.</p>
+</div>
+
 {% if site.related_posts.size >= 1 %}
 <div class="related">
   <h2>Related posts</h2>

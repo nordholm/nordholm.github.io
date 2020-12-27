@@ -1,7 +1,7 @@
 # Setup
 title:               Garbage Out
-tagline:             'and other stuff'
-description:         'Musings about the geeky things in my life, possibly including music, r/c helicopters, technology, and work...'
+#tagline:             'and other stuff'
+description:         'Musings about the geeky things in my life'
 url:                 https://garbage-out.weird-and-wonderful.net/
 baseurl:             ''
 paginate:            5
@@ -12,11 +12,12 @@ author:
   name:              Thorsten Nordholm Søbirk
   linkedin:          https://www.linkedin.com/in/thorstensoebirk/
   twitter:           https://twitter.com/ThorstenSoebirk
+  email:             thorsten@weird-and-wonderful.net
 
 # Gems
 plugins:
   - jekyll-paginate
 
 # Custom vars
-version:             0.0.1
+version:             1.0.0
 #google_analytics_id: #UA-XXXX-Y
